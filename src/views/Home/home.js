@@ -3,8 +3,7 @@ import React from "react";
 export const Home = () => {
   return (
     <>
-      
-      <h1>Urubots.</h1>
+         <h1>Urubots.</h1>
         
     </>
 

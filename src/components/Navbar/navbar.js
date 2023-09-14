@@ -16,19 +16,19 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item col-6 col-md-auto ">
-                <Link className="nav-link active text-primary" aria-current="page" to="#">Urucup</Link>
+                <Link className="nav-link active text-primary" aria-current="page" to="/src/views/Urucup/urucup.js">Urucup</Link>
               </li>
               <li className="nav-item col-6 col-md-auto">
-                <Link className="nav-link text-primary" to="#">Eventos</Link>
+                <Link className="nav-link text-primary" to="/src/views/Eventos/eventos.js">Eventos</Link>
               </li>
               <li className="nav-item col-6 col-md-auto">
-                <Link className="nav-link text-primary" to="#">Quienes Somos</Link>
+                <Link className="nav-link text-primary" to="/src/views/Quienes-somos/quienesSomos.js">Quienes Somos</Link>
               </li>
               <li className="nav-item col-6 col-md-auto">
-                <Link className="nav-link text-primary" to="#">Contacto</Link>
+                <Link className="nav-link text-primary" to="/src/views/Contacto/contacto.js">Contacto</Link>
               </li>
               <li className="nav-item col-6 col-md-auto">
-                <Link className="nav-link text-primary" to="#">Uteco</Link>
+                <Link className="nav-link text-primary" to="/src/views/Uteco/uteco.js">Uteco</Link>
               </li>
             </ul>
           </div>
